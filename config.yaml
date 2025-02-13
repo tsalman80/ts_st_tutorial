@@ -1,0 +1,20 @@
+credentials:
+  usernames:
+    ts:
+      email: ts@gmail.com
+      first_name: taha
+      last_name: salman
+      password: abc # To be replaced with hashed password
+    admin:
+      email: admin@lo.com
+      first_name: admin
+      last_name: user
+      password: admin
+
+cookie:
+  expiry_days: 0
+  key: FFT5MrsEs3gT+aN0ekkUwd+RjGLm6770EB5aPNQ656g= # Must be string
+  name: st_tutorial_auth_cookie
+preauthorized:
+  emails:
+  - ts@gmail.com
