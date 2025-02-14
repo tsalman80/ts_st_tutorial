@@ -9,7 +9,7 @@ credentials:
       email: admin@lo.com
       first_name: admin
       last_name: user
-      password: admin
+      password: admin123
 
 cookie:
   expiry_days: 0
