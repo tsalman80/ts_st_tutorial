@@ -88,8 +88,10 @@ def generate_image(text):
 
 # Cell 4: Streamlit UI
 user_input = st.text_area(
-    "Enter a brief for your post:", "How should you maintain a deployed model?"
+    label="Enter a brief for your post:",
+    placeholder="Ex: Cats running around in a field of flowers",
 )
+
 
 if st.button("Generate Post Content"):
     with st.spinner("Generating Text..."):
