@@ -55,7 +55,7 @@ def generate_image(text):
         return
 
     response = client.images.generate(
-        model="dall-e-3",
+        model="gpt-4o-mini",
         prompt=text,
         size="1024x1024",
         quality="standard",
